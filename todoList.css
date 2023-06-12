@@ -1,0 +1,102 @@
+body {
+	background: linear-gradient(to right, blue, purple);
+}
+.container{
+	min-height: 100vh;
+	padding: 50px;
+}
+.to-do{
+	width: 100%;
+	max-width: 540px;
+	padding: 40px;
+	background-color: white;
+	margin: 100px auto 20px;
+	padding: 40px 10px 70px;
+	border-radius: 10px;
+}
+.to-do h2{
+	color: #002765;
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+img{
+	width: 30px;
+	margin-left: 10px; 
+}
+.row{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background: #edeef0;
+	border-radius: 20px;
+	padding-left: 20px;
+	margin-bottom: 25px; 
+}
+input{
+	flex: 1;
+	border: none;
+	outline: none;
+	background: transparent; 
+	padding: 10px
+}
+h3{
+	font-size: 1em;
+	color: red;
+}
+table{
+/*	border: solid grey 1px;
+*/	width: 450px;
+	max-width: 450px;
+	text-align: left;
+	font-size: 1.5em;
+	padding: 15px;
+	margin: 30px;
+}
+@media screen and (max-width: 767px max-height: 400px) {
+    .table-responsive {
+        width: 100%;
+        margin-bottom: 15px;
+        overflow-y: hidden;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        border: 1px solid #ddd;
+    }
+}
+th {
+	width: 500px;
+}
+th span {
+	position: absolute;
+	font-size: 22px;
+	top: 50%;
+	width: 28px; 
+	height: 28px; 
+	line-height: 28px;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+span:hover {
+	color: red;
+	cursor: pointer;
+}
+button {
+	border: none;
+	outline: none;
+	background: red;
+	color: #fff;
+	padding: 10px 15px;
+	font-size: 10px;
+	cursor: pointer;
+	border-radius: 40px;
+}
+.btn{
+	border: none;
+	outline: none;
+	background: #ff5945;
+	color: #fff;
+	padding: 16px 50px;
+	font-size: 15px;
+	cursor: pointer;
+	border-radius: 40px;
+}

@@ -1,9 +1,10 @@
 body {
-	background: linear-gradient(to right, blue, purple);
+/* 	background: linear-gradient(to right, blue, purple); */
 }
 .container{
 	min-height: 100vh;
 	padding: 50px;
+	background: linear-gradient(to right, blue, purple);
 }
 .to-do{
 	width: 100%;
